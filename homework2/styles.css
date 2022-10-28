@@ -1,0 +1,269 @@
+
+ @font-face {
+    font-family: osa;
+    src: url(./static/Oswald-Light.ttf);
+ }
+
+ @font-face {
+    font-family: noto;
+    src: url(./static/NotoSans-Medium.ttf); 
+ }@font-face {
+    font-family: abel;
+    src: url(./static/Abel-Regular.ttf); 
+ }
+.container{ 
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+.imgclass{
+    position: relative;
+    opacity: 0.5;
+  border-radius: 10px;
+box-shadow: -1px 5px 15px black;;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{ 
+    display: block;
+    margin-top: 80px;
+    opacity: 1;
+    font-size: 70px;
+    margin-left: 50px;
+    font-family: osa;
+    position: absolute;
+     color: antiquewhite;
+}
+p{
+    width: 750px; 
+    position: absolute;
+    color: white;
+    font-size: 35px;
+     margin-left: 30px;
+     margin-top: 250px;
+     font-family: noto;
+}
+
+ .topnav { 
+    width: 100%; 
+    position: absolute;
+    background-color: rgb(30, 26, 26);
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    font-family: osa;
+    margin-right: 40px;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  
+  
+  .topnav #action:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+  }  
+  
+  .topnav #drama:hover {
+    background-color: rgb(241, 117, 117);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+  }  
+  
+  .topnav #series:hover {
+    background-color: rgb(241, 117, 117);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+  }  
+  
+  .topnav #enemy:hover {
+    background-color: rgb(155, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+  }  
+  
+  .topnav #fiction:hover {
+    background-color: rgb(239, 169, 41);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } 
+  #rate { 
+    color:rgb(255, 222, 33) ;
+    font-family: osa;
+    font-size: 30px;
+  }
+  h2{
+    text-align: center ;
+    font-family: abel;
+    font-size: 30px;
+  }
+  .back{ 
+    background-color: #000000;
+    display:flex ;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center; 
+    width: 1000px;
+    height: 560px;
+  }
+
+  .mymovies{ 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 40px;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .mymovies:hover{
+    width: 700px;
+    height: 600px;
+    cursor: cell;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+
+ }
+  .box{ 
+    margin: 10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 230px;
+  }
+
+  .dramamovies{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(255, 209, 213);
+    margin: 40px;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  .dramamovies:hover{
+    width: 700px;
+    height: 600px;
+    cursor: cell;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+
+ }
+  
+  .enemymovies{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(144, 142, 145);
+    margin: 40px;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .enemymovies:hover{
+    width: 700px;
+    height: 600px;
+    cursor: cell;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+
+ }
+
+  
+  .fictionmovies{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(142, 0, 0);
+    margin: 40px;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+
+   .fictionmovies:hover{
+    width: 700px;
+    height: 600px;
+    cursor: cell;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+
+ }
+
+  
+  .seriese{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(109, 31, 31);
+    margin: 40px;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    
+  }
+
+
+ .seriese:hover{
+    width: 700px;
+    height: 600px;
+    cursor: cell;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+
+ }
+
+
+
+  .topnav #top:hover {
+    background-color: rgb(155, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+  }  
+
+  
+  .lownav {
+background-color: rgb(155, 150, 150);
+overflow: hidden;
+bottom: 0;
+width: 100%;
+}
+
+  .lownav a {
+    bottom: 0;
+        font-family: osa;
+        margin-right: 40px;
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .lownav a:hover{
+
+        background-color: rgb(255, 255, 255);
+        font-size: 30px;
+        width: 300px;
+        height: 50px; 
+        font-family: noto;
+        color: #000000;
+      }
+
+     
+      
